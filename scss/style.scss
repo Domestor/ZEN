@@ -158,3 +158,59 @@ body {
         }
     }
 }
+
+.cashback {
+    .cashback__container{
+        max-width: 1290px;
+        padding: 15px;
+        margin: 0 auto;
+        .cashback__content {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .cashback__title {
+                @extend %titstyle;
+            }
+            .cashback__subtitle {
+                @extend %substyle;
+            }
+            .cashback__button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+                border: 1px solid #000;
+                border-radius: 48px;
+                width: 237px;
+                height: 48px;
+                .cashback__link {
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: black;
+                }
+                .cashback__link:hover {
+                    color: red;
+                    font-weight: 600;
+                }
+            }
+        }
+        .cashback__brands {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px 60px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            .cashback__icon {
+                width: 20%;
+            }
+            .cashback__icon--lidl {
+                width: 69px;
+                height: 69px;
+            }
+        }
+    }
+}

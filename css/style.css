@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.care .care__container .care__content .care__subtitle, .warranty .warranty__container .warranty__content .warranty__subtitle, .peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
+.cashback .cashback__container .cashback__content .cashback__subtitle, .care .care__container .care__content .care__subtitle, .warranty .warranty__container .warranty__content .warranty__subtitle, .peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
 .peaceful .peaceful__container .peaceful__content .peaceful__listen-title {
   font-weight: 400;
   font-size: 18px;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
 }
 
-.care .care__container .care__content .care__title, .warranty .warranty__container .warranty__content .warranty__title {
+.cashback .cashback__container .cashback__content .cashback__title, .care .care__container .care__content .care__title, .warranty .warranty__container .warranty__content .warranty__title {
   font-weight: 400;
   font-size: 36px;
   line-height: 43px;
@@ -216,4 +216,52 @@ body {
 }
 .care .care__container .care__image {
   margin-top: 100px;
+}
+
+.cashback .cashback__container {
+  max-width: 1290px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.cashback .cashback__container .cashback__content {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cashback .cashback__container .cashback__content .cashback__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid #000;
+  border-radius: 48px;
+  width: 237px;
+  height: 48px;
+}
+.cashback .cashback__container .cashback__content .cashback__button .cashback__link {
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+.cashback .cashback__container .cashback__content .cashback__button .cashback__link:hover {
+  color: red;
+  font-weight: 600;
+}
+.cashback .cashback__container .cashback__brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.cashback .cashback__container .cashback__brands .cashback__icon {
+  width: 20%;
+}
+.cashback .cashback__container .cashback__brands .cashback__icon--lidl {
+  width: 69px;
+  height: 69px;
 }/*# sourceMappingURL=style.css.map */
