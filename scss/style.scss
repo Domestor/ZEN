@@ -124,7 +124,37 @@ body {
             }
             .warranty__subtitle {
                 @extend %substyle;
+                p {
+                    margin-bottom: 10px;
+                }
             }
         }
+    }
+}
+
+.care {
+    .care__container {
+        max-width: 1290px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        margin: 0 auto;
+        .care__content {
+            margin-top: 250px;
+            .care__title {
+                @extend %titstyle;
+                padding: 25px 0px;
+            }
+            .care__subtitle {
+                @extend %substyle;
+                p {
+                    margin-bottom: 10px;
+                }
+            }
         }
+        .care__image {
+            margin-top: 100px;
+        }
+    }
 }

@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.warranty .warranty__container .warranty__content .warranty__subtitle, .peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
+.care .care__container .care__content .care__subtitle, .warranty .warranty__container .warranty__content .warranty__subtitle, .peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
 .peaceful .peaceful__container .peaceful__content .peaceful__listen-title {
   font-weight: 400;
   font-size: 18px;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
 }
 
-.warranty .warranty__container .warranty__content .warranty__title {
+.care .care__container .care__content .care__title, .warranty .warranty__container .warranty__content .warranty__title {
   font-weight: 400;
   font-size: 36px;
   line-height: 43px;
@@ -192,4 +192,28 @@ body {
 }
 .warranty .warranty__container .warranty__content .warranty__title {
   padding: 25px 0px;
+}
+.warranty .warranty__container .warranty__content .warranty__subtitle p {
+  margin-bottom: 10px;
+}
+
+.care .care__container {
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+}
+.care .care__container .care__content {
+  margin-top: 250px;
+}
+.care .care__container .care__content .care__title {
+  padding: 25px 0px;
+}
+.care .care__container .care__content .care__subtitle p {
+  margin-bottom: 10px;
+}
+.care .care__container .care__image {
+  margin-top: 100px;
 }/*# sourceMappingURL=style.css.map */
