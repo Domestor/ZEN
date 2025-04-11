@@ -1,43 +1,44 @@
 @import "nullstyle.scss";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+%substyle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.92px;
+    color: #222222;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
 }
 
 .header {
     border-bottom: 1px solid rgb(199, 199, 199);
-
     .container {
         max-width: 1290px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px 75px;
+        padding: 15px;
         margin: 0 auto;
-
         .container__left,
         .container__right {
             gap: 40px;
             display: flex;
             align-items: center;
-
             .container__menu {
                 display: flex;
                 gap: 30px;
-
                 .container__link {
                     font-weight: 500;
                     font-size: 18px;
                     color: #222222;
-
                     &:hover {
                         color: red;
                         font-weight: 600;
                     }
                 }
             }
-
             .container__link-block {
                 display: flex;
                 align-items: center;
@@ -46,18 +47,55 @@ body {
                 height: 48px;
                 border: 1px solid #000;
                 border-radius: 48px;
-
                 .container__link--getapp {
                     font-weight: 500;
                     font-size: 20px;
-                    color: #222222;
-
+                    color: black;
                     &:hover {
                         font-weight: 600;
                         color: red;
                     }
                 }
             }
+        }
+    }
+}
+
+.peaceful {
+    .peaceful__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1290px;
+        margin: 0 auto;
+        .peaceful__content {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            margin-top: 150px;
+            .peaceful__listen {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .peaceful__title {
+                font-weight: 400;
+                font-size: 42px;
+            }
+            .peaceful__subtitle,
+            .peaceful__listen-title {
+                @extend %substyle;
+            }
+            .peaceful__icons {
+                display: flex;
+                flex-direction: column;
+                width: 168px;
+                height: 50px;
+                gap: 20px;
+            }
+        }
+        .peaceful__image {
+            margin-top: 50px;
         }
     }
 }

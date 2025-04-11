@@ -70,6 +70,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+.peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
+.peaceful .peaceful__container .peaceful__content .peaceful__listen-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.92px;
+  color: #222222;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -82,7 +90,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 75px;
+  padding: 15px;
   margin: 0 auto;
 }
 .header .container .container__left,
@@ -121,10 +129,43 @@ body {
 .header .container .container__right .container__link-block .container__link--getapp {
   font-weight: 500;
   font-size: 20px;
-  color: #222222;
+  color: black;
 }
 .header .container .container__left .container__link-block .container__link--getapp:hover,
 .header .container .container__right .container__link-block .container__link--getapp:hover {
   font-weight: 600;
   color: red;
+}
+
+.peaceful .peaceful__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1290px;
+  margin: 0 auto;
+}
+.peaceful .peaceful__container .peaceful__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 150px;
+}
+.peaceful .peaceful__container .peaceful__content .peaceful__listen {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.peaceful .peaceful__container .peaceful__content .peaceful__title {
+  font-weight: 400;
+  font-size: 42px;
+}
+.peaceful .peaceful__container .peaceful__content .peaceful__icons {
+  display: flex;
+  flex-direction: column;
+  width: 168px;
+  height: 50px;
+  gap: 20px;
+}
+.peaceful .peaceful__container .peaceful__image {
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
