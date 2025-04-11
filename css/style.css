@@ -70,12 +70,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
+.warranty .warranty__container .warranty__content .warranty__subtitle, .peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
 .peaceful .peaceful__container .peaceful__content .peaceful__listen-title {
   font-weight: 400;
   font-size: 18px;
   line-height: 25.92px;
   color: #222222;
+}
+
+.warranty .warranty__container .warranty__content .warranty__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
 }
 
 body {
@@ -168,4 +174,22 @@ body {
 }
 .peaceful .peaceful__container .peaceful__image {
   margin-top: 50px;
+}
+
+.warranty .warranty__container {
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+}
+.warranty .warranty__container .warranty__image {
+  margin-top: 100px;
+}
+.warranty .warranty__container .warranty__content {
+  margin-top: 250px;
+}
+.warranty .warranty__container .warranty__content .warranty__title {
+  padding: 25px 0px;
 }/*# sourceMappingURL=style.css.map */

@@ -7,6 +7,11 @@
     line-height: 25.92px;
     color: #222222;
 }
+%titstyle {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+}
 
 body {
     font-family: 'Nunito', sans-serif;
@@ -98,4 +103,28 @@ body {
             margin-top: 50px;
         }
     }
+}
+
+.warranty {
+    .warranty__container {
+        max-width: 1290px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        margin: 0 auto;
+        .warranty__image {
+            margin-top: 100px;
+        }
+        .warranty__content {
+            margin-top: 250px;
+            .warranty__title {
+                @extend %titstyle;
+                padding: 25px 0px;
+            }
+            .warranty__subtitle {
+                @extend %substyle;
+            }
+        }
+        }
 }
