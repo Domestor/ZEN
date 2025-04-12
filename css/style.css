@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.cashback .cashback__container .cashback__content .cashback__subtitle, .care .care__container .care__content .care__subtitle, .warranty .warranty__container .warranty__content .warranty__subtitle, .peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
+.creation .creation__container .creation__content .creation__subtitle, .currencies .currencies__container .currencies__content .currencies__subtitle, .no-fees .no-fees__container .no-fees__content .no-fees__subtitle, .shopping .shopping__container .shopping__content .shopping__subtitle, .cashback .cashback__container .cashback__content .cashback__subtitle, .care .care__container .care__content .care__subtitle, .warranty .warranty__container .warranty__content .warranty__subtitle, .peaceful .peaceful__container .peaceful__content .peaceful__subtitle,
 .peaceful .peaceful__container .peaceful__content .peaceful__listen-title {
   font-weight: 400;
   font-size: 18px;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
 }
 
-.cashback .cashback__container .cashback__content .cashback__title, .care .care__container .care__content .care__title, .warranty .warranty__container .warranty__content .warranty__title {
+.creation .creation__container .creation__content .creation__title, .currencies .currencies__container .currencies__content .currencies__title, .no-fees .no-fees__container .no-fees__content .no-fees__title, .shopping .shopping__container .shopping__content .shopping__title, .cashback .cashback__container .cashback__content .cashback__title, .care .care__container .care__content .care__title, .warranty .warranty__container .warranty__content .warranty__title {
   font-weight: 400;
   font-size: 36px;
   line-height: 43px;
@@ -264,4 +264,112 @@ body {
 .cashback .cashback__container .cashback__brands .cashback__icon--lidl {
   width: 69px;
   height: 69px;
+}
+
+.shopping .shopping__container {
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+}
+.shopping .shopping__container .shopping__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.no-fees .no-fees__container {
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+}
+.no-fees .no-fees__container .no-fees__image {
+  margin-top: 100px;
+}
+.no-fees .no-fees__container .no-fees__content {
+  margin-top: 250px;
+}
+.no-fees .no-fees__container .no-fees__content .no-fees__title {
+  padding: 25px 0px;
+}
+.no-fees .no-fees__container .no-fees__content .no-fees__subtitle p {
+  margin-bottom: 10px;
+}
+
+.currencies .currencies__container {
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+}
+.currencies .currencies__container .currencies__content {
+  margin-top: 250px;
+}
+.currencies .currencies__container .currencies__content .currencies__title {
+  padding: 25px 0px;
+}
+.currencies .currencies__container .currencies__content .currencies__subtitle p {
+  margin-bottom: 20px;
+}
+.currencies .currencies__container .currencies__image {
+  margin-top: 100px;
+}
+
+.creation .creation__container {
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+}
+.creation .creation__container .creation__image {
+  margin-top: 150px;
+}
+.creation .creation__container .creation__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 250px;
+}
+.creation .creation__container .creation__content .creation__subtitle p {
+  margin-bottom: 20px;
+}
+.creation .creation__container .creation__content .creation__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer {
+  margin-top: 150px;
+  border-top: 1px solid #CBD6E2;
+}
+.footer .footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  gap: 150px;
+}
+.footer .footer__columns .footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer__columns .footer__column .footer__link {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer .footer__columns .footer__column .footer__link:hover {
+  color: red;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
